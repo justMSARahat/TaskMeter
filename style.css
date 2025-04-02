@@ -191,6 +191,25 @@ nav{
     justify-content: space-between;
 }
 
+.blog_body .card {
+    margin-top: 20px;
+}
+.blog_body .card .card-body{
+    padding: 20px;
+    margin-top: 20px;
+}
+.blog_body .card .card-body h2{
+    font-size: 20px;
+    font-weight: 800;
+    color: #00303C;
+}
+.blog_body .card .card-body p{
+    font-size: 16px;
+    color: #00303C;
+}
+
+
+
 
 
 
