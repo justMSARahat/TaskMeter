@@ -49,14 +49,14 @@ nav{
     margin-top: 20px;
 }
 .left{
-    width: 70%;
+    width: 80%;
     background-color: white;
     margin-right: 20px;
     border-radius: 10px;
     padding: 20px;
 }
 .sidebar{
-    width: 30%;
+    width: 20%;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
@@ -68,6 +68,7 @@ nav{
     padding-right: 20px;
     border-radius: 10px;
     width: 25%;
+    margin-right: 20px;
 }
 .box1 .logo{
     background-color: white;
@@ -93,4 +94,119 @@ nav{
     padding-right: 20px;
     border-radius: 10px;
     width: 50%;
+    margin-right: 20px;
+}
+.box2{
+    background-color: #3752FD;
+    background-image: url(assets/board.png);
+    background-repeat: no-repeat;
+    background-position: 30px ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 h1{
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.box3{
+    background-color: #F4F7ff ;
+    height: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 25%;
+}
+.box3 .logo{
+    background-color: white;
+    padding: 13px;
+    border-radius: 50%;
+}
+.box3 .content {
+    margin-left: 20px;
+}
+.box3 .content p{
+    font-size: 22px;
+    color: #00303C;
+    font-weight: 500;
+}
+.box3 .content h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidebar .activities {
+
+}
+.sidebar .activities img{
+
+}
+.sidebar .activities p{
+    color: #00303C;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.clear_act{
+    margin-top: 15px;
+}
+
+.btn{
+    background-color: #3752FD;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+.line{
+    border-top: 1px dotted gray;
+    margin-top: 20px;
+}
+.sidebar .content{
+
+}
+.sidebar .content p{
+    font-size: 15px;
+    padding: 10px;
+    background-color: #F4F7ff;
+    margin-top: 20px;
+    border-radius: 10px;
 }
