@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body id="BodyWhole">
     <section class="card">
         <header class="header ">
             <nav class="flex items-center">
@@ -21,9 +21,9 @@
                 <div class="right flex items-center">
                     <div class="nav_btnstyle_back_1 right flex items-center">
                         <img src="assets/checkbox.png" alt="">
-                        <h1 class="Logo_Text">23</h1>
+                        <h1 id="total_completed" class="Logo_Text">23</h1>
                     </div>
-                    <div class="nav_btnstyle_back_2">
+                    <div class="nav_btnstyle_back_2" id="ColorChangeBtn">
                         <img src="assets/theme-btn.png" alt="">
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                         </div>
                         <div class="content">
                             <p>Task Assigned</p>
-                            <h1 class="font-32 b">05</h1>
+                            <h1 id="Assigned" class="font-32 b">06</h1>
                         </div>
                     </div>
                     <div class="box2" id="BlogPage">
@@ -50,8 +50,8 @@
                             <img src="assets/calender.png" alt="">
                         </div>
                         <div class="content">
-                            <p>Wed ,</p>
-                            <h1 class="font-32 b">july 28 2025</h1>
+                            <p id="Day">Wed ,</p>
+                            <h1 id="Date" class="font-32 b">july 28 2025</h1>
                         </div>
                     </div>
                 </div>
@@ -70,13 +70,34 @@
                                 <h2>21 March 2025</h1>
                             </div>
                             <div class="right">
-                                <button class="btn">Completed</button>
+                                <form>
+                                    <input type="text" style="display: none;" id="title1" value="Fix Mobile Button Issue">
+                                    <button id="btn1" class="btn">Completed</button>
+                                </form>
                             </div>
                         </div>
                     </div>
                     <div class="card_design box p-4 text-center rounded-sm">
-                        <h3 class="back_white">ShopEase</h3>
-                        <h1>Fix Mobile Button Issue </h1>
+                        <h3 class="back_white">CloudSync</h3>
+                        <h1>Add Dark Mode</h1>
+                        <p class="back_white">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+                        <hr class="line">
+                        <div class="bottom flex items-center">
+                            <div class="deadline">
+                                <h4>Deadline</h3>
+                                <h2>21 March 2025</h1>
+                            </div>
+                            <div class="right">
+                                <form>
+                                    <input type="text" style="display: none;" id="title2" value="Add Dark Mode">
+                                    <button id="btn2" class="btn">Completed</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_design box p-4 text-center rounded-sm">
+                        <h3 class="back_white">SwiftPay</h3>
+                        <h1>Optimize  Home page </h1>
                         <p class="back_white">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                             and ensure onClick works properly</p>
                         <hr class="line">
@@ -86,13 +107,16 @@
                                 <h2>21 March 2025</h1>
                             </div>
                             <div class="right">
-                                <button class="btn">Completed</button>
+                                <form>
+                                    <input type="text" style="display: none;" id="title3" value="Optimize  Home page" >
+                                    <button id="btn3" class="btn">Completed</button>
+                                </form>
                             </div>
                         </div>
                     </div>
                     <div class="card_design box p-4 text-center rounded-sm">
-                        <h3 class="back_white">ShopEase</h3>
-                        <h1>Fix Mobile Button Issue </h1>
+                        <h3 class="back_white">Meta</h3>
+                        <h1>Add new emoji 🤲</h1>
                         <p class="back_white">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                             and ensure onClick works properly</p>
                         <hr class="line">
@@ -102,13 +126,16 @@
                                 <h2>21 March 2025</h1>
                             </div>
                             <div class="right">
-                                <button class="btn">Completed</button>
+                                <form>
+                                    <input type="text" style="display: none;" id="title4" value="Add new emoji 🤲">
+                                    <button id="btn4" class="btn">Completed</button>
+                                </form>
                             </div>
                         </div>
                     </div>
                     <div class="card_design box p-4 text-center rounded-sm">
-                        <h3 class="back_white">ShopEase</h3>
-                        <h1>Fix Mobile Button Issue </h1>
+                        <h3 class="back_white">Google LLC</h3>
+                        <h1>Integrate OpenAI API </h1>
                         <p class="back_white">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                             and ensure onClick works properly</p>
                         <hr class="line">
@@ -118,13 +145,16 @@
                                 <h2>21 March 2025</h1>
                             </div>
                             <div class="right">
-                                <button class="btn">Completed</button>
+                                <form>
+                                    <input type="text" style="display: none;" id="title5" value="Integrate OpenAI API">
+                                    <button id="btn5" class="btn">Completed</button>
+                                </form>
                             </div>
                         </div>
                     </div>
                     <div class="card_design box p-4 text-center rounded-sm">
-                        <h3 class="back_white">ShopEase</h3>
-                        <h1>Fix Mobile Button Issue </h1>
+                        <h3 class="back_white">Glassdoar</h3>
+                        <h1>Improve Job searching </h1>
                         <p class="back_white">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                             and ensure onClick works properly</p>
                         <hr class="line">
@@ -134,23 +164,10 @@
                                 <h2>21 March 2025</h1>
                             </div>
                             <div class="right">
-                                <button class="btn">Completed</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card_design box p-4 text-center rounded-sm">
-                        <h3 class="back_white">ShopEase</h3>
-                        <h1>Fix Mobile Button Issue </h1>
-                        <p class="back_white">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                            and ensure onClick works properly</p>
-                        <hr class="line">
-                        <div class="bottom flex items-center">
-                            <div class="deadline">
-                                <h4>Deadline</h3>
-                                <h2>21 March 2025</h1>
-                            </div>
-                            <div class="right">
-                                <button class="btn">Completed</button>
+                                <form>
+                                    <input type="text" style="display: none;" id="title6" value="Improve Job searching">
+                                    <button id="btn6" class="btn">Completed</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -164,17 +181,11 @@
                         <p>Activity Log</p>
                     </div>
                     <div class="button flex justify-center items-center">
-                        <button class="btn clear_act">Clear History</button>
+                        <button id="Clear_History" class="btn clear_act">Clear History</button>
                     </div>
                 </header>
                 <hr class=" line">
-                <div class="content">
-                    <p>
-                        You have Complete The Task Add Dark Mode at 12:48:15 PM
-                    </p>
-                    <p>
-                        You have Complete The Task Add Dark Mode at 12:48:15 PM
-                    </p>
+                <div class="content" id="Sidebar_Notification">
                 </div>
 
             </section>
