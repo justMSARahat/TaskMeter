@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F4F7ff ;
+}
+.card{
+    background-color: red;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+
+nav{
+    justify-content: space-between;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.Logo_Text{
+    font-size: 32px;
+    margin-left: 5px;
+}
+.Logo_Text span{
+    font-size: 32px;
+    font-weight: bold;
+}
+.nav_btnstyle_back_1{
+    background-color: #F4F7ff;
+    padding: 7px 15px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+.nav_btnstyle_back_2{
+    background-color: #F4F7ff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+.body{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.left{
+    width: 70%;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.sidebar{
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box1{
+    background-color: #F4F7ff ;
+    height: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 25%;
+}
+.box1 .logo{
+    background-color: white;
+    padding: 13px;
+    border-radius: 50%;
+}
+.box1 .content {
+    margin-left: 20px;
+}
+.box1 .content p{
+    font-size: 16px;
+    color: #00303C;
+    font-weight: 500;
+}
+.box1 .content h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.box2{
+    background-color: #F4F7ff ;
+    height: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
