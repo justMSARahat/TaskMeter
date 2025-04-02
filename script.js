@@ -89,6 +89,8 @@ document.getElementById("btn1").addEventListener('click',    function(event) {
 
 
         alert(title + " Task Completed. Congratulationsssssss!!!!!By Completing This Task you have completed all the task for today");
+
+        alert("Go and Take a nap!!! No task left");
     }
     console.log(n);
 
@@ -142,6 +144,7 @@ document.getElementById("btn2").addEventListener('click',    function(event) {
 
 
         alert(title + " Task Completed. Congratulationsssssss!!!!!By Completing This Task you have completed all the task for today");
+        alert("Go and Take a nap!!! No task left");
     }
     console.log(n);
 
@@ -195,6 +198,7 @@ document.getElementById("btn3").addEventListener('click',    function(event) {
 
 
         alert(title + " Task Completed. Congratulationsssssss!!!!!By Completing This Task you have completed all the task for today");
+        alert("Go and Take a nap!!! No task left");
     }
     console.log(n);
 
@@ -248,6 +252,7 @@ document.getElementById("btn4").addEventListener('click',    function(event) {
 
 
         alert(title + " Task Completed. Congratulationsssssss!!!!!By Completing This Task you have completed all the task for today");
+        alert("Go and Take a nap!!! No task left");
     }
     console.log(n);
 
@@ -301,6 +306,7 @@ document.getElementById("btn5").addEventListener('click',    function(event) {
 
 
         alert(title + " Task Completed. Congratulationsssssss!!!!!By Completing This Task you have completed all the task for today");
+        alert("Go and Take a nap!!! No task left");
     }
     console.log(n);
 
@@ -354,6 +360,7 @@ document.getElementById("btn6").addEventListener('click',    function(event) {
 
 
         alert(title + " Task Completed. Congratulationsssssss!!!!!By Completing This Task you have completed all the task for today");
+        alert("Go and Take a nap!!! No task left");
     }
     console.log(n);
 
