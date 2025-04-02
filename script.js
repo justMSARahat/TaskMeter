@@ -392,7 +392,3 @@ console.log(n);
 document.getElementById("BlogPage").addEventListener('click', function(){
     window.location.href = "blog.html";
 });
-
-document.getElementById("BackToHome").addEventListener('click', function(){
-    window.location.href = "index.html";
-});

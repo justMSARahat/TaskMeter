@@ -23,32 +23,52 @@
                 </div>
             </nav>
         </header>
-        <section class="blog_body flex ">
+        <section class="blog_body ">
             <div class="card ">
                 <div class="card-body bg-base-100">
                     <h2 class="card-title">Question-1: What are the different ways to select an element in the DOM?</h2>
                     <hr class="">
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                    <p>There are 4 Ways to Select a Element.<br>
+                        1. Using ID -<br> const element = document.getElementById("uniqueId");<br>
+                        2. Using Class Name -<br>const elements = document.getElementsByClassName("className");<br>
+                        3.  by Tag -<br> const elements = document.getElementsByTagName("div");<br>
+                        4.  Selecting Using CSS Selectors - <br>const firstElement = document.querySelector(".className");<br>
+                        const allElements = document.querySelectorAll("div.className");<br><br>
+                    </p>
                 </div>
                 <div class="card-body bg-base-100">
                     <h2 class="card-title">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h2>
                     <hr class="">
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                    <p>​In JavaScript, innerHTML, innerText, and textContent are properties used to access or modify the content of HTML elements, each with distinct behaviors:​<br>
+
+                       1. [innerHTML]: Handles HTML content. When retrieving, it returns the element's content, including any HTML tags. When setting, it parses the provided string as HTML, rendering elements accordingly.​<br>
+
+                       2. [innerText]: Focuses on the visible text as rendered on the page. It excludes hidden elements and ignores HTML tags, returning only the text that is visible to the user.​<br>
+
+                       3. [textContent]: Retrieves or sets all text within an element, regardless of visibility or styling. Unlike innerText, it includes text from hidden elements and does not process HTML tags, treating them as plain text.<br></p>
                 </div>
                 <div class="card-body bg-base-100">
                     <h2 class="card-title">Question-3: What is event delegation in the DOM?</h2>
                     <hr class="">
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                    <p>​Event delegation is a JavaScript technique where a single event listener is attached to a parent element that will manage event for its child elements and will do all the operation for then. </p>
                 </div>
                 <div class="card-body bg-base-100">
                     <h2 class="card-title">Question-4: What is event bubbling in the DOM?</h2>
                     <hr class="">
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                    <p>​Event bubbling in the DOM is when an event starts at the target element and then propagates up to its parent elements.</p>
                 </div>
                 <div class="card-body bg-base-100">
                     <h2 class="card-title">Question-5: How do you create, add, and remove elements using JavaScript?</h2>
                     <hr class="">
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                    <p>ACreate an element: const newDiv = document.createElement('div');<br>
+
+                        Add content: newDiv.textContent = "Hello!";<br>
+
+                        Set attributes: newDiv.setAttribute('id', 'myDiv');<br>
+
+                        Add to DOM: document.body.appendChild(newDiv);<br>
+
+                        Remove element: newDiv.remove(); or parentElement.removeChild(newDiv);<br></p>
                 </div>
             </div>
 
@@ -56,5 +76,10 @@
     </section>
 
     <script src="script.js"></script>
+    <script>
+        document.getElementById("BackToHome").addEventListener('click', function(){
+            window.location.href = "index.html";
+        });
+    </script>
 </body>
 </html>

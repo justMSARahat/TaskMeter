@@ -191,8 +191,11 @@ nav{
     justify-content: space-between;
 }
 
+.blog_body {
+}
 .blog_body .card {
     margin-top: 20px;
+    width: 100%;
 }
 .blog_body .card .card-body{
     padding: 20px;
